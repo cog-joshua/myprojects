@@ -5,6 +5,7 @@
 <div class="container">
     <?php 
         //get the sum of two numbers directly in a class
+    
         $calc = new Calculation();
         echo $calc->add(1, 2)."<br>";
         echo $calc->subtract(1, 2)."<br>";
